@@ -16,6 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://pankajvaghela.github.io/",
   "eslintConfig": {
     "extends": "react-app"
   },
