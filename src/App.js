@@ -1,24 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import { AppRouter } from "./router/AppRouter";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to the <code>world</code> of
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Pankaj Vaghela
-        </a>
-      </header>
+      <AppRouter />
     </div>
   );
 }
