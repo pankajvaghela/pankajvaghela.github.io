@@ -2,13 +2,13 @@
   stroke-dasharray: 856 858;
   stroke-dashoffset: 857;
   animation: GlXvvEZn_draw_0 38600ms linear 0ms infinite,
-    GlXvvEZn_fade 1600ms linear 0ms infinite;
+    GlXvvEZn_fade 38600ms linear 0ms infinite;
 }
 .GlXvvEZn_1 {
   stroke-dasharray: 512 514;
   stroke-dashoffset: 513;
   animation: GlXvvEZn_draw_1 38600ms linear 0ms infinite,
-    GlXvvEZn_fade 1600ms linear 0ms infinite;
+    GlXvvEZn_fade 38600ms linear 0ms infinite;
 }
 @keyframes GlXvvEZn_draw {
   100% {

@@ -4,16 +4,20 @@ import { useSpring, animated } from "react-spring";
 
 import "./InfoView.scss";
 
-import { CreativeLotusTextPath } from "../../common/icons/creativeLotusText";
+// import { CreativeLotusTextPath } from "../../common/icons/creativeLotusText";
 import { LotivoAnimated } from "../../common/icons/LotivoAnimated";
-import { Layout, Row, Col, Typography } from "antd";
+import { Row, Col, Typography, Grid } from "antd";
 
-const { Text, Link } = Typography;
+const { Text } = Typography;
+const { useBreakpoint } = Grid;
+
 interface InfoViewProps {}
 export const InfoView: React.FC<InfoViewProps> = React.forwardRef(
   (props, ref) => {
     const spring = useSpring({ opacity: 1, from: { opacity: 0 } });
-    console.log("spring", spring);
+
+    const screens = useBreakpoint();
+    console.log("screens", screens);
 
     return (
       <div
@@ -37,7 +41,7 @@ export const InfoView: React.FC<InfoViewProps> = React.forwardRef(
             {/* <MyName /> */}
             {/* <div style={{ margin: "5px 0" }}>My Creative Space</div> */}
             {/* <div style={{ margin: "5px 0" }}> TECHNOLOGY | ART | PHOTOGRAPHY</div> */}
-            <LotivoAnimated />
+            <LotivoAnimated size={screens.lg ? 1.2 : 1} />
           </div>
         </animated.div>
 
