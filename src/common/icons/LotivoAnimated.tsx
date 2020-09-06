@@ -7,8 +7,8 @@ export const LotivoAnimated: React.FC<LotivoAnimatedProps> = (props, _) => {
   const { color = "#fff" } = props;
   return (
     <svg
-      width={333 * 1.2}
-      height={99 * 1.2}
+      width={333 * 1}
+      height={99 * 1}
       // width="3330"
       // height="990"
       viewBox="0 0 111 33"

@@ -24,12 +24,16 @@ export const InfoView: React.FC<InfoViewProps> = React.forwardRef(
           padding: "20px 0",
         }}
       >
-        <animated.div style={{ opacity: spring.opacity.toString(), flex: 1 }}>
-          <div
-            style={{
-              margin: "30vh 0px 40px",
-            }}
-          >
+        <animated.div
+          style={{
+            opacity: spring.opacity.toString(),
+            display: "flex",
+            flex: 1,
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <div style={{}}>
             {/* <MyName /> */}
             {/* <div style={{ margin: "5px 0" }}>My Creative Space</div> */}
             {/* <div style={{ margin: "5px 0" }}> TECHNOLOGY | ART | PHOTOGRAPHY</div> */}
@@ -41,7 +45,7 @@ export const InfoView: React.FC<InfoViewProps> = React.forwardRef(
           <Col span={16} offset={4}>
             <div>
               {[
-                ` Mobile App & Web Developer, `,
+                ` Mobile App - Web Developer, `,
                 ` UI/UX enthusiast, `,
                 ` Artist and Photographer.`,
               ].map((item) => (
