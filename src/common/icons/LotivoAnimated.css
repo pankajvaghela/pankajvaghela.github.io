@@ -1,0 +1,50 @@
+.GlXvvEZn_0 {
+  stroke-dasharray: 856 858;
+  stroke-dashoffset: 857;
+  animation: GlXvvEZn_draw_0 38600ms linear 0ms infinite,
+    GlXvvEZn_fade 1600ms linear 0ms infinite;
+}
+.GlXvvEZn_1 {
+  stroke-dasharray: 512 514;
+  stroke-dashoffset: 513;
+  animation: GlXvvEZn_draw_1 38600ms linear 0ms infinite,
+    GlXvvEZn_fade 1600ms linear 0ms infinite;
+}
+@keyframes GlXvvEZn_draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes GlXvvEZn_fade {
+  0% {
+    stroke-opacity: 1;
+  }
+  98.77300613496932% {
+    stroke-opacity: 1;
+  }
+  100% {
+    stroke-opacity: 0;
+  }
+}
+@keyframes GlXvvEZn_draw_0 {
+  0.6134969325153374% {
+    stroke-dashoffset: 857;
+  }
+  92.63803680981594% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes GlXvvEZn_draw_1 {
+  0.6134969325153374% {
+    stroke-dashoffset: 513;
+  }
+  92.63803680981594% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
