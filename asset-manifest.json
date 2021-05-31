@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c95b650b.chunk.css",
+    "main.css": "/static/css/main.6d752ed3.chunk.css",
     "main.js": "/static/js/main.731e5557.chunk.js",
     "main.js.map": "/static/js/main.731e5557.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b92a1f40.js",
@@ -8,16 +8,16 @@
     "static/js/2.5e88f2e6.chunk.js": "/static/js/2.5e88f2e6.chunk.js",
     "static/js/2.5e88f2e6.chunk.js.map": "/static/js/2.5e88f2e6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8a2332cd3d1bfcf13ab0dbb821f3e098.js": "/precache-manifest.8a2332cd3d1bfcf13ab0dbb821f3e098.js",
+    "precache-manifest.73309813ce8726a56067827ef4589047.js": "/precache-manifest.73309813ce8726a56067827ef4589047.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c95b650b.chunk.css.map": "/static/css/main.c95b650b.chunk.css.map",
+    "static/css/main.6d752ed3.chunk.css.map": "/static/css/main.6d752ed3.chunk.css.map",
     "static/js/2.5e88f2e6.chunk.js.LICENSE.txt": "/static/js/2.5e88f2e6.chunk.js.LICENSE.txt",
     "static/media/pankaj-vaghela-white-shirt-clipped.png": "/static/media/pankaj-vaghela-white-shirt-clipped.8b4cae31.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b92a1f40.js",
     "static/js/2.5e88f2e6.chunk.js",
-    "static/css/main.c95b650b.chunk.css",
+    "static/css/main.6d752ed3.chunk.css",
     "static/js/main.731e5557.chunk.js"
   ]
 }
