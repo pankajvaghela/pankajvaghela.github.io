@@ -6,7 +6,7 @@ interface LotivoAnimatedProps extends SVGAttributes<HTMLOrSVGElement> {
 }
 
 export const LotivoAnimated: React.FC<LotivoAnimatedProps> = (props, _) => {
-  const { color = "#fff", size = 1 } = props;
+  const { color = "#afeaff", size = 1 } = props;
   return (
     <svg
       width={333 * size}

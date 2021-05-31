@@ -24,7 +24,7 @@ export const InfoView: React.FC<InfoViewProps> = React.forwardRef(
         style={{
           display: "flex",
           flexDirection: "column",
-          height: "98vh",
+          height: "100vh",
           padding: "20px 0",
         }}
       >
@@ -47,16 +47,12 @@ export const InfoView: React.FC<InfoViewProps> = React.forwardRef(
 
         <Row>
           <Col span={16} offset={4}>
-            <div>
-              {[
-                ` Mobile App - Web Developer, `,
-                ` UI/UX enthusiast, `,
-                ` Artist and Photographer.`,
-              ].map((item) => (
-                <div style={{ display: "inline-block", marginRight: "10px" }}>
-                  <Text type="secondary">{item}</Text>
-                </div>
-              ))}
+            <div style={{ marginBottom: "20px", textAlign: "center" }}>
+              <div style={{ display: "inline-block", marginRight: "10px" }}>
+                <Text type="secondary">
+                  Hi, Welcome to creative World of <Text> Pankaj Vaghela</Text>!
+                </Text>
+              </div>
             </div>
           </Col>
         </Row>
